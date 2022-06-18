@@ -13,7 +13,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Chrome()                         #(3)
-        self.live_server_url='http://155.248.197.251'
+        self.live_server_url='http://47.98.220.122'
         # staging_server = os.environ.get('STAGING_SERVER')
         # if staging_server:
         #     self.live_server_url = 'http://' + staging_server

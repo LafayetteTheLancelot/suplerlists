@@ -74,11 +74,14 @@ WSGI_APPLICATION = 'suplerlists.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'D:\OneDrive\文档\大三下\软件过程改进\TDD2022\suplerlists\database\db.sqlite3'),
     }
 }
 
