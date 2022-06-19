@@ -1,2 +1,2 @@
 django==3.2.5
-gunicorn @ file:///D:/ProgramData/Anaconda3/envs/yyy/gunicorn-20.1.0-py3-none-any.whl
+gunicorn==20.1.0
